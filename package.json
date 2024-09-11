@@ -1,7 +1,7 @@
 {
   "name": "wikidoc",
   "version": "1.0.0",
-  "description": "WIKIDOC博客",
+  "description": "WIKIDOC",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
