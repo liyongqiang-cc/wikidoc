@@ -9,7 +9,7 @@ config:
       dark: 0.3
     hero:
       name: WIKIDOC
-      tagline: Front End Developer
+      tagline: Backend End Developer
       text: 认真生活，简单做人，用心做事。
       actions:
         -

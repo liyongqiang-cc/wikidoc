@@ -16,8 +16,8 @@ tags:
 ```json
 {
     "lang": "zh-cn",
-    "name": "WIKIDOC笔记",
-    "short_name": "WIKIDOC笔记",
+    "name": "WIKIDOC",
+    "short_name": "WIKIDOC",
     "description": "WIKIDOC学习笔记",
     "start_url": "/",
     "background_color": "#2f3d58",

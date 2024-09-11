@@ -12,10 +12,10 @@ export default defineUserConfig({
         avatar: {
             url: '/logo.png',
             name: 'WIKIDOC',
-            description: '前端开发',
+            description: '.NET开发',
             circle: true,
-            location: '西安，中国',
-            organization: '亚信科技',
+            location: '上海，中国',
+            // organization: '',
         },
         // nav
         navbar: [
@@ -349,7 +349,7 @@ export default defineUserConfig({
         },
         // 页脚
         footer: {
-            message: 'WIKIDOC笔记|日常记录',
+            message: 'WIKIDOC|日常记录',
             copyright: 'Copyright © 2024 | ICP备案号：<a target="_blank" href="https://www.xxxxxx.cn/">豫ICP备20240911号-1</a>'
         },
         plugins: {
@@ -360,18 +360,18 @@ export default defineUserConfig({
             comment: {
                 provider: 'Giscus',
                 comment: true,
-                repo: 'iyuwb/blog-comments',
-                repoId: 'R_kgDOMNskgg',
+                repo: 'liyongqiang-cc/wikidoc',
+                repoId: 'R_kgDOMv81XA',
                 category: 'General',
-                categoryId: 'DIC_kwDOMNskgs4CgWpV',
+                categoryId: 'DIC_kwDOMv81XM4CiYCD',
             },
         }
     }),
     bundler: viteBundler(),
     // 标题
-    title: 'WIKIDOC笔记',
+    title: 'WIKIDOC',
     // 介绍
-    description: 'WIKIDOC笔记，包括内容：日常记录|前端学习|前端笔记|问题记录，HTML，CSS，JavaScript，Vue，Node.js，NPM。',
+    description: 'WIKIDOC，包括内容：日常记录|前端学习|前端笔记|问题记录，HTML，CSS，JavaScript，Vue，Node.js，NPM。',
     head: [
         ['link', {
             rel: 'icon',
@@ -379,7 +379,7 @@ export default defineUserConfig({
         }],
         ['meta', {
             name: 'keywords',
-            href: 'WIKIDOC笔记,日常记录,前端学习,前端笔记,问题记录,HTML,CSS,JavaScript,Vue,Node.js'
+            href: 'WIKIDOC,日常记录,前端学习,前端笔记,问题记录,HTML,CSS,JavaScript,Vue,Node.js'
         }],
         // 开启PWA
         ['link', {
