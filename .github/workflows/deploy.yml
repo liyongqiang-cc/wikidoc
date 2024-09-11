@@ -38,6 +38,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # ACCESS_TOKEN 是创建的 Secret 名称，替换为你自己创建的名称
         with:
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
           # This is the branch where the docs are deployed to
           branch: gh-pages
           clean: true
