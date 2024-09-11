@@ -349,7 +349,7 @@ export default defineUserConfig({
         },
         // 页脚
         footer: {
-            message: 'WIKIDOC笔记|日常记录|前端学习',
+            message: 'WIKIDOC笔记|日常记录',
             copyright: 'Copyright © 2024 | ICP备案号：<a target="_blank" href="https://www.xxxxxx.cn/">豫ICP备20240911号-1</a>'
         },
         plugins: {
@@ -365,10 +365,6 @@ export default defineUserConfig({
                 category: 'General',
                 categoryId: 'DIC_kwDOMNskgs4CgWpV',
             },
-            // 百度统计
-            baiduTongji: {
-                key: '1e0d8df993b41bd5b0888ca70a3b9aac'
-            }
         }
     }),
     bundler: viteBundler(),
@@ -385,11 +381,6 @@ export default defineUserConfig({
             name: 'keywords',
             href: 'WIKIDOC笔记,日常记录,前端学习,前端笔记,问题记录,HTML,CSS,JavaScript,Vue,Node.js'
         }],
-        // 去掉字体
-        // ['link', {
-        //     rel: 'stylesheet',
-        //     href: '/index.css'
-        // }],
         // 开启PWA
         ['link', {
             rel: 'manifest',
