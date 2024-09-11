@@ -1,0 +1,24 @@
+{
+    "lang": "zh-cn",
+    "name": "WIKIDOC笔记",
+    "short_name": "WIKIDOC笔记",
+    "description": "WIKIDOC学习笔记",
+    "start_url": "/",
+    "theme_color": "#ccc",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/pwa.webp",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/pwa.webp",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/pwa.webp",
+            "sizes": "1024x1024"
+        }
+    ]
+}
